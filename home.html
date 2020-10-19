@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Fat Penguin</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+      <section id="home">
+        <header>Fat Penguin</header>
+        <p>The leader in breaking the ice</p>
+        <label for="pin">Enter PIN:</label>
+        <input type="text" id="pin" name="pin">
+        <br>
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <h3>Choose your penguin avatar!</h3>
+        <img src='img/next.png' alt="next" id="arrow">
+        <div id="avatar">
+          <img src="img/penguin.png" alt="penguin" class="avatar">
+          <img src="img/fat.png" alt="glasses" class="avatar hidden">
+          <img src="img/glasses.png" alt="fat" class="avatar hidden">
+        </div>
+        <div id="join" class="join">Join</div>
+      </section>
+      <section id="starter-questions" class="hidden">
+        <header>Starter Questions</header>
+        <label for="color">Favorite Color: </label>
+        <input type="text" id="color" name="color">
+        <br>
+        <label for="class">Facorite Class: </label>
+        <input type="text" id="class" name="class">
+        <br>
+        <label for="sport">Favorite Sport: </label>
+        <input type="text" id="sport" name="sport">
+        <br>
+        <div id="go" class="join">Go!</div>
+      </section>
+      <section id="q1" class="hidden question">
+        <header>Odorless expired icecream or pizza that smells like its expired?</header>
+        <div class="choices">
+          <img src="img/icecream.png" alt="icecream">
+          <img src="img/pizza.png" alt="pizza">
+        </div>
+      </section>
+      <section id="q2" class="hidden question">
+        <header>How would you rather spend your time in quarentine?</header>
+        <div class="choices">
+          <img src="img/hike.png" alt="hike">
+          <img src="img/tv.png" alt="tv">
+        </div>
+      </section>
+      <section id="q3" class="hidden question">
+        <header>You are stuck on an island. What do you bring?</header>
+        <div class="choices">
+          <img src="img/friend.png" alt="friend">
+          <img src="img/rod.png" alt="rod">
+        </div>
+        <div class="choices">
+          <img src="img/phone.png" alt="phone">
+          <img src="img/umbrella.png" alt="umbrella">
+        </div>
+      </section>
+      <section id="q4" class="hidden question">
+        <h1>
+          Draw an animal with its clothes on!
+        </h1>
+        <div id = "left"> 
+          <button type="button" id = "white">Eraser</button>
+          <button type="button" id = "black">Black</button>
+          <button type="button" id = "red">Red</button>
+          <button type="button" id = "blue">Blue</button>
+          <button type="button" id = "green">Green</button>
+        </div>
+      
+        <canvas id="canvas"></canvas>
+      
+        <div id = "right">
+          <button type="button" id = "five">Thin</button>
+          <button type="button" id = "ten">Normal</button>
+          <button type="button" id = "twenty">Thick</button>
+          <button type="button" id = "fifty">Thicker</button>
+          <button type="button" id = "clear">Clear</button>
+        </div>
+        <div id="finish" class="join">Finish</div>
+      </section>
+      <section id="counter" class="hidden">
+        <p>Seconds Remaining:</p>
+        <p id="seconds-left"></p>
+        <div id="time"></div>
+      </section>
+      <section id="problem" class="hidden">
+        <p>Problems Left:</p>
+        <p id="problem-left">4</p>
+      </section>
+      <section id="similarity" class="hidden">
+        <header>
+          Results!
+        </header>
+        <h1>
+          You, John, Tim and Kim had similar answers!
+        </h1>
+        <h2>
+          All of you would go on hikes and take a buddy to an island.
+        </h2>
+        <h4>
+          Who's drawing is who's?
+        </h4>
+        <div class="container">
+          <img src="img/fish.png" alt="fish">
+          <img src="img/ptux.png" alt="ptux">
+          <img src="img/turtle.png" alt="turtle">
+        </div>
+        <div id="result" class="join">Join Zoom and find out from your partners!</div>
+      </section>
+    </body>
+</html>

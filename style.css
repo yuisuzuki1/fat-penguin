@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #D5F3FE;
+}
+
+header {
+  font-size: 55px;
+  color: navy;
+  background-color: aliceblue;
+}
+
+img {
+  border-radius: 10%;
+}
+
+.join {
+  background-color: aquamarine;
+  width: 100%;
+  height: 5%;
+  position: fixed;
+  bottom: 0;
+  font-size: 25px;
+}
+
+#arrow {
+  width: 5%;
+}
+
+#avatar img {
+  width: 20%;
+}
+
+.hidden {
+  display: none;
+}
+
+#counter, #problem {
+  width: 20%;
+  background-color: #0F5298;
+  position: absolute;
+  top: 3%;
+  border-radius: 10%;
+}
+
+#counter p, #problem p {
+  color: white;
+}
+
+#counter {
+  left: 0;
+}
+
+#problem {
+  right: 0;
+}
+
+#class, #sport, #color {
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+#problem-left, #seconds-left {
+  font-size: 20px;
+}
+
+.question header {
+  margin-top: 2%;
+  margin-left: 22%;
+  margin-right: 22%;
+  font-size: 30px;
+}
+
+.choices img {
+  margin-top: 6%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.container img {
+  width: 23%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+h2 {
+  background-color: #3C99DC;
+  margin: auto;
+  width: 70%;
+}
+
+.choices, .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tint {
+  filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(330deg);
+}
+
+#canvas {
+  background-color: white;
+}
